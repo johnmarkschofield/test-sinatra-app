@@ -6,3 +6,8 @@ require 'sinatra'
 get '/' do
   "Howdy partner!"
 end
+
+get '/status' do
+    "All is well with the world."
+end
+
